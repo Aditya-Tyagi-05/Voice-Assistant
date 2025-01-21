@@ -23,8 +23,6 @@ This is a Python-based voice assistant that listens to your voice commands and p
 2. **Install Dependencies**: Run the following command to install the required libraries:
    ```bash
    pip install pyttsx3 SpeechRecognition wikipedia pyaudio
-python voice_assistant.py
-dist/
-  voice_assistant.exe  # Standalone executable file
-voice_assistant.py     # The main Python script
-README.md              # Documentation
+
+
+##This is also a .exe File in dist/Voice_Assistant.exe
