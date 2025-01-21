@@ -83,6 +83,7 @@ if __name__=="__main__" :
             webbrowser.open('facebook.com')
         
         elif 'thank' in query:
+            speak("Thank You")
             break    
                
 
