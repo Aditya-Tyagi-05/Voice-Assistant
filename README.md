@@ -25,4 +25,4 @@ This is a Python-based voice assistant that listens to your voice commands and p
    pip install pyttsx3 SpeechRecognition wikipedia pyaudio
 
 
-##This is also a .exe File in dist/Voice_Assistant.exe
+## This is also a .exe File in dist/Voice_Assistant.exe
