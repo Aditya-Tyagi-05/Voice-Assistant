@@ -1,6 +1,6 @@
-# Voice-Assistant
+# Voice Assistant
 
-This is a Python-based voice assistant that listens to your voice commands and performs tasks like searching Wikipedia, opening websites, and telling the current time.
+This is a Python-based voice assistant that listens to your voice commands and performs tasks like searching Wikipedia, opening websites, and telling the current time. The project now includes a standalone `.exe` file for easy execution without requiring Python installation.
 
 ## Features
 
@@ -14,10 +14,17 @@ This is a Python-based voice assistant that listens to your voice commands and p
   - Opening Visual Studio Code.
   - Exiting gracefully when thanked.
 
-## Installation
+## Installation and Usage
+
+### Using the Python Script
 
 1. **Install Python**: Ensure Python 3.7 or higher is installed. Download it from [python.org](https://www.python.org/downloads/).
 
 2. **Install Dependencies**: Run the following command to install the required libraries:
    ```bash
    pip install pyttsx3 SpeechRecognition wikipedia pyaudio
+python voice_assistant.py
+dist/
+  voice_assistant.exe  # Standalone executable file
+voice_assistant.py     # The main Python script
+README.md              # Documentation
